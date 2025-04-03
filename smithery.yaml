@@ -1,0 +1,27 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - apiKey
+      - email
+    properties:
+      apiKey:
+        type: string
+        description: Your NCBI API key.
+      email:
+        type: string
+        description: Your email address registered with NCBI.
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'python',
+      args: ['python-pubmed-mcp-enhanced.py', '--api-key', config.apiKey, '--email', config.email]
+    })
+  exampleConfig:
+    apiKey: your_dummy_api_key
+    email: your_email@example.com
