@@ -1,5 +1,7 @@
 # PubMed MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@t0mst0ne/pubmed-mcp-easy)](https://smithery.ai/server/@t0mst0ne/pubmed-mcp-easy)
+
 Enhanced Python-based PubMed MCP Server with API key support for faster and unlimited downloads.
 
 ## Features
@@ -73,6 +75,14 @@ python python-pubmed-mcp-enhanced.py --config config.json
 ```
 
 ## Usage
+
+### Installing via Smithery
+
+To install pubmed-mcp-easy for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@t0mst0ne/pubmed-mcp-easy):
+
+```bash
+npx -y @smithery/cli install @t0mst0ne/pubmed-mcp-easy --client claude
+```
 
 ### Standard Usage
 
