@@ -4,7 +4,8 @@
 
 Enhanced Python-based PubMed MCP Server with API key support for faster and unlimited downloads.
 
-## Certified by MCP Review at [https://mcpreview.com/mcp-servers/t0mst0ne/pubmed-mcp-easy]
+## Certified by MCP Review
+[https://mcpreview.com/mcp-servers/t0mst0ne/pubmed-mcp-easy]
 
 ## Features
 
